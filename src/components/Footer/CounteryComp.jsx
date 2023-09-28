@@ -11,7 +11,7 @@ const CounteryComp = () => {
 			.then(res => res.json())
 			.then(data => {
                 setCountry(data.country);
-                console.log(data)
+              
 			});
     },[])
     return (
