@@ -1,11 +1,7 @@
 
 
 const Container = ({children}) => {
-    return (
-        <div className="max-w-6xl mx-auto ">
-            {children}
-        </div>
-    );
+    return <div className='p-5 '>{children}</div>;
 };
 
 export default Container;
