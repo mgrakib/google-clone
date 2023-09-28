@@ -14,18 +14,18 @@ const HandelDark = () => {
         setMounted(true)
     },[])
 
-    console.log(theme, ' this is them')
+    console.log(theme, ' this is')
     return (
 		<div>
 			{mounted &&
 				(currentThem === "dark" ? (
 					<MdOutlineLightMode
-						className='cursor-pointer'
+						className='cursor-pointer text-gray-700 hover:text-blue-600'
 						onClick={() => setTheme("light")}
 					/>
 				) : (
 					<BsMoonFill
-						className='cursor-pointer'
+						className='cursor-pointer text-gray-700 hover:text-blue-600'
 						onClick={() => setTheme("dark")}
 					/>
 				))}
